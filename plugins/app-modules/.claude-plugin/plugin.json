@@ -1,0 +1,8 @@
+{
+    "name": "app-modules",
+    "description": "À-la-carte application feature modules: audit log & GDPR toolkit, PWA offline shell, scan input, CRUD resource recipe, scheduled email sequences, multi-provider AI assistant, admin observability suite, read-only sync connector, onboarding & what's-new, feedback roadmap.",
+    "version": "0.1.0",
+    "author": {
+        "name": "OrthoZ team"
+    }
+}

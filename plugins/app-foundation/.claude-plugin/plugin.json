@@ -1,0 +1,8 @@
+{
+    "name": "app-foundation",
+    "description": "Foundation skills to start a new production-grade Laravel application: bootstrap with TDD quality gates, RBAC with atomic permissions, user profile module, database-driven settings & branding, and a Blade design system.",
+    "version": "0.1.0",
+    "author": {
+        "name": "OrthoZ team"
+    }
+}

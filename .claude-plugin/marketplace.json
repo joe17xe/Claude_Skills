@@ -1,0 +1,32 @@
+{
+    "name": "app-factory",
+    "owner": {
+        "name": "OrthoZ team",
+        "email": "ezrya79@gmail.com"
+    },
+    "description": "Reusable Claude Code skills extracted from OrthoZ: Laravel app foundation, feature modules, CI quality gates and VPS deployment.",
+    "version": "0.1.0",
+    "metadata": {
+        "pluginRoot": "./plugins"
+    },
+    "plugins": [
+        {
+            "name": "app-foundation",
+            "source": "app-foundation",
+            "description": "Start a new production-grade Laravel app: bootstrap with quality gates, RBAC with atomic permissions, user profile, database-driven settings & branding, Blade design system.",
+            "version": "0.1.0"
+        },
+        {
+            "name": "app-modules",
+            "source": "app-modules",
+            "description": "À-la-carte feature modules: audit/GDPR, PWA offline shell, scan input, CRUD resource recipe, email sequences, AI assistant, admin observability, read-only sync connector, onboarding, roadmap.",
+            "version": "0.1.0"
+        },
+        {
+            "name": "app-delivery",
+            "source": "app-delivery",
+            "description": "Ship it: blocking CI pipeline, VPS provisioning for one more app, and a parameterized deploy pipeline (continuous, scheduled or manual) with DB backup, health check and auto-rollback.",
+            "version": "0.1.0"
+        }
+    ]
+}

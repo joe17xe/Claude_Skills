@@ -1,0 +1,8 @@
+{
+    "name": "app-delivery",
+    "description": "Delivery and operations skills: blocking CI quality gates, VPS provisioning for an additional app, and a parameterized VPS deploy pipeline (continuous, scheduled or manual) with database backup, health check and automatic rollback.",
+    "version": "0.1.0",
+    "author": {
+        "name": "OrthoZ team"
+    }
+}
