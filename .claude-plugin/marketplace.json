@@ -26,7 +26,7 @@
             "name": "app-delivery",
             "source": "app-delivery",
             "description": "Ship it: blocking CI pipeline, VPS provisioning for one more app, and a parameterized deploy pipeline (continuous, scheduled or manual) with DB backup, health check and auto-rollback.",
-            "version": "0.1.0"
+            "version": "0.2.0"
         },
         {
             "name": "app-design",
