@@ -1,0 +1,47 @@
+# Chorégraphie — <nom de la page>
+
+> Fiche obligatoire avant de créer la page (hook `choregraphie-requise.sh`).
+> Courte : une page n'a droit qu'à un seul moment animé.
+
+## Rôle de la page
+
+Ce que la personne vient faire ici, en une phrase.
+
+## Moment unique
+
+Le seul mouvement qui part sans geste de la personne (ou « aucun », assumé) :
+
+| Quoi | Déclencheur | Ordre | Durée | Courbe |
+|---|---|---|---|---|
+| ex. titre puis chapô | chargement | titre → chapô, décalage 80 ms | 450 ms | `ressort` |
+
+Pourquoi ce moment-là : ce qu'il fait comprendre.
+
+## Réponses aux gestes
+
+Chaque mouvement répond à une action et montre ce qui a changé :
+
+| Geste | Réponse | Durée |
+|---|---|---|
+| ex. clic sur un onglet | le panneau se fond | 180 ms |
+
+## Transitions
+
+Entrée et sortie de la page, chargement de contenu (aucune par défaut :
+navigation classique, pas de transition de page).
+
+## Mouvement réduit
+
+Ce qui se passe avec `prefers-reduced-motion: reduce` : tout apparaît à sa
+place finale, sans délai ; les réponses aux gestes deviennent instantanées.
+
+## Ce qui ne bouge pas
+
+Ce qu'on s'interdit sur cette page (apparitions au défilement, parallaxe,
+compteurs qui défilent, survols animés sur chaque carte…).
+
+## Jetons
+
+Durées et courbes utilisées, tirées de la grille commune :
+`courte` 180 ms, `moyenne` 450 ms, `longue` 1 100 ms ; courbe `ressort`
+`cubic-bezier(0.22, 1, 0.36, 1)`.

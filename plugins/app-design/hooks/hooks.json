@@ -1,0 +1,17 @@
+{
+    "hooks": {
+        "PreToolUse": [
+            {
+                "matcher": "Write",
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/choreography_required.py\"",
+                        "timeout": 10,
+                        "statusMessage": "Checking the page choreography"
+                    }
+                ]
+            }
+        ]
+    }
+}

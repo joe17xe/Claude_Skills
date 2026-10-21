@@ -13,6 +13,7 @@ already settled, and ship them to the VPS with the same safety net.
 /plugin install app-foundation@app-factory
 /plugin install app-modules@app-factory
 /plugin install app-delivery@app-factory
+/plugin install app-design@app-factory
 ```
 
 Skills then trigger automatically when a task matches their description, or
@@ -53,6 +54,14 @@ After updating this repo: `/plugin marketplace update app-factory`.
 | `ci-quality-gates` | Blocking CI: Pint, PHPStan, coverage gate, security audits, MySQL migrations checks, front build, E2E, one aggregated required check |
 | `vps-provision` | One more app on the VPS: PHP-FPM, Nginx vhost, MariaDB, deploy user + minimal sudoers, scheduler cron, systemd queue worker, HTTPS, off-server backups |
 | `vps-deploy-pipeline` | Deploy **any GitHub repo** to the VPS: deploy.sh (DB backup, health check, auto-rollback), rollback.sh, deploy.yml with **continuous / scheduled / manual** triggers |
+
+### `app-design` — every new page earns its motion
+
+| Piece | What it does |
+|---|---|
+| agent `choregraphe` | Writes `docs/choreographie/<page>.md` before a page exists: one animated moment at most, responses to gestures, reduced motion, what must not move |
+| skill `minimal-choreography` | Sets the system up in a project: template, shared motion tokens, CI guard test |
+| hook (PreToolUse on Write) | Refuses to create a page (Blade view, Next.js/Nuxt/Astro/Svelte page, `.html`) until its sheet exists and is complete |
 
 ## Typical flows
 

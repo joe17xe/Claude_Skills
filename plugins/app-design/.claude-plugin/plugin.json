@@ -1,0 +1,8 @@
+{
+    "name": "app-design",
+    "description": "Design discipline for every new page or site: a choreographer agent that defines the minimal motion choreography before a page exists, and a hook that refuses to create a page without it.",
+    "version": "0.1.0",
+    "author": {
+        "name": "OrthoZ team"
+    }
+}
