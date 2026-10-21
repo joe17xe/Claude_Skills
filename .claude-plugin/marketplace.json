@@ -5,7 +5,7 @@
         "email": "ezrya79@gmail.com"
     },
     "description": "Reusable Claude Code skills extracted from OrthoZ: Laravel app foundation, feature modules, CI quality gates and VPS deployment.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "metadata": {
         "pluginRoot": "./plugins"
     },
@@ -26,6 +26,12 @@
             "name": "app-delivery",
             "source": "app-delivery",
             "description": "Ship it: blocking CI pipeline, VPS provisioning for one more app, and a parameterized deploy pipeline (continuous, scheduled or manual) with DB backup, health check and auto-rollback.",
+            "version": "0.1.0"
+        },
+        {
+            "name": "app-design",
+            "source": "app-design",
+            "description": "Design discipline: the choregraphe agent defines the minimal motion choreography of every new page before it exists; a hook refuses to create a page without it.",
             "version": "0.1.0"
         }
     ]
