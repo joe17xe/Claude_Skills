@@ -17,6 +17,7 @@ for before writing files:
 | `{{COVERAGE_MIN}}` | Blocking coverage % | `90` |
 | `{{RUNNER_LABELS}}` | GitHub Actions `runs-on` value | `[self-hosted, vps]` or `ubuntu-latest` |
 | `{{DOMAIN}}` / `{{DOMAIN_OR_IP}}` | Public host | `app.example.fr` |
+| `{{GITHUB_REPO}}` | GitHub `owner/repo` | `acme/medistock` |
 
 ## Templates are `.stub` files
 

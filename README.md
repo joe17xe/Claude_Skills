@@ -52,7 +52,7 @@ After updating this repo: `/plugin marketplace update app-factory`.
 | Skill | What it installs |
 |---|---|
 | `ci-quality-gates` | Blocking CI: Pint, PHPStan, coverage gate, security audits, MySQL migrations checks, front build, E2E, one aggregated required check |
-| `vps-provision` | One more app on the VPS: PHP-FPM, Nginx vhost, MariaDB, deploy user + minimal sudoers, scheduler cron, systemd queue worker, HTTPS, off-server backups |
+| `vps-provision` | One more app on the VPS without harming the others (no shared-package upgrade, append-only SSH config and cron): PHP-FPM, Nginx vhost, MariaDB, deploy user + minimal sudoers, scheduler cron, systemd queue worker, HTTPS, off-server backups — ships `provision.sh` |
 | `vps-deploy-pipeline` | Deploy **any GitHub repo** to the VPS: deploy.sh (DB backup, health check, auto-rollback), rollback.sh, deploy.yml with **continuous / scheduled / manual** triggers |
 
 ### `app-design` — every new page earns its motion
